@@ -34,5 +34,6 @@ int main(){
     else if(typeinfo==typeid(cats)){
         cout << "Object is of type cats" << endl;
     }
+delete animalptr;
     return 0;
 }
